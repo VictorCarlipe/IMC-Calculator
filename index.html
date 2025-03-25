@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-body">
+        <header>
+            <h1>Cálculo de Índice de Massa Corporal</h1>
+        </header>
+    
+        <main>
+            <div class="container-form">
+                <div class="container-input">
+                    <label for="weight">Peso</label>
+                    <input type="number" id="weight" name="weight" placeholder="Em Kilogramas" min="0">
+                </div>
+            
+                <div class="container-input">
+                    <label for="height">Altura</label>
+                    <input type="number" id="height" name="height" placeholder="Em Centimetros" min="0">
+                </div>
+    
+                <div class="container-button">
+                    <button type="button" onclick="fnCalcIMC()" id="calc">Calcular IMC</button>
+                    <button type="button" onclick="fnReset()" class="disappear" id="reset">Limpar Resultado</button>
+                </div>
+            </div>
+
+            <div id="result" class="container-result disappear">
+                <p id="pg-result">Resultado do IMC: </p>
+                <p id="pg-class">Você se encontra em</p>
+            </div>
+
+            <div class="container-IMC">
+                <span id="IMC1" class="IMC">de 15 até 18.5: Abaixo do Peso</span>
+                <span id="IMC2" class="IMC">de 18.6 até 24.9: Peso Normal</span>
+                <span id="IMC3" class="IMC">de 25 até 29.9: Acima do Peso</span>
+                <span id="IMC4" class="IMC">de 30 até 39.9: Obesidade Grau I</span>
+                <span id="IMC5" class="IMC">de 40 em diante: Obesidade Grau II</span>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
