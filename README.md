@@ -3,7 +3,7 @@
 
 <strong>📝Requisitos:</strong> <br/>
 
-Crie um arquivo HTML com a seguinte estrutura:
+»Crie um arquivo HTML com a seguinte estrutura:
 <ul>
   <li>Dois campos de input: um para o peso e outro para a altura.</li>
   <li>Um botão com o texto "Calcular".</li>
@@ -34,14 +34,13 @@ Crie um arquivo HTML com a seguinte estrutura:
 
 <strong>📎Instruções:</strong>
 
-1. Tela Inicial do Website:
+1. Tela Inicial do Website:<br/>
 ![Captura de tela 2025-03-24 214910](https://github.com/user-attachments/assets/ec6c0319-b602-42fa-809e-df96332c7ca7)
 
-2. Insira os dados de peso (em quilogramas) e altura (em centimetros)
+2. Insira os dados de peso (em quilogramas) e altura (em centimetros):<br/>
 ![Captura de tela 2025-03-24 215002](https://github.com/user-attachments/assets/0e13a0cb-2107-4642-8d78-f1c40e523e74)
 
-3. Clique no botão 'Calcular' e confira o resultado
+3. Clique no botão 'Calcular' e confira o resultado:<br/>
 ![Captura de tela 2025-03-24 215030](https://github.com/user-attachments/assets/7a5a5e0a-fdb6-442b-b679-9dfd2557ca81)
 
-
-Obs.: Caso queira realizar um novo calculo de IMC, basta clicar no botão 'Limpar Resultado'
+<i>Obs.: Caso queira realizar um novo calculo de IMC, basta clicar no botão 'Limpar Resultado'</i>
